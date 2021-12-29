@@ -1,0 +1,19 @@
+.item {
+    border:solid;
+    width: 50%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    background-color: azure;
+    opacity: 0.9;
+    
+}
+
+.itemImage {
+    display: flex;
+    float:left;
+}
+
+.header {
+    font-size: 35px;
+}

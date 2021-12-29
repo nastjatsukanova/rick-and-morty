@@ -1,0 +1,29 @@
+.about {
+    display: flex;
+    height: 755px;
+    flex-direction: column;
+    background-image: url(https://images5.alphacoders.com/876/thumb-1920-876590.png);
+    align-items: center;
+}
+
+.image {
+    z-index: 5;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.nameAbout {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: azure;
+}
+
+.description {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: azure;
+    
+}

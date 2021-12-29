@@ -1,0 +1,31 @@
+.paginate {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    list-style-type: none;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    color: azurer;
+}
+
+.paginate li {
+    border-radius: 5px;
+    padding: 2px 10px 2px 10px;
+    border: 1px solid rgb(223, 223, 223); 
+    margin: 10px
+}
+.paginate li.active {
+    background-color: #63da67;
+  }
+  
+
+.list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: flex-start;
+    align-self: center;
+}
