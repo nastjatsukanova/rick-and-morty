@@ -38,7 +38,7 @@ console.log(filter)
           <Input  value={inputValue} handleChange={handleChange} />
           <Dropdown  />
           <Button text={'find'} handleClick={handleClick} />
-          <DataList itemsPerPage={3} filter={filter}/>
+          <DataList itemsPerPage={3} />
           
         </div>
     )

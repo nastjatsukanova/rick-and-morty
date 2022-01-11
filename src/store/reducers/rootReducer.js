@@ -1,7 +1,6 @@
 import { SAVE_DATA, CHANGE_INPUT_VALUE, FILTER } from "../constants";
 
 const initialState = {data: [], inputValue: '', filter: "character"}
-//let id = 0
 export const rootReducer = (state = initialState, action) => {
     switch(action.type){
         case CHANGE_INPUT_VALUE:

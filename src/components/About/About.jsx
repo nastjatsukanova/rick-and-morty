@@ -15,9 +15,9 @@ export const About = (props) => {
     {item.image && <img className='image' src={item.image}  alt='' width={350} height={350} />}
     <p className='nameAbout'>{item.name}</p> 
       <div className="description">
-        <p> {item.status}</p>
         <p> {item.species}</p>
-        <p> {item.gender }</p>
+        <p> {item.gender} </p>
+        <p> {item.status} </p>
         <p>created: {date.toDateString()}</p>
         <Link to={{
                 pathname: "/",
