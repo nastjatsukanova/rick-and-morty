@@ -1,4 +1,4 @@
-import {useDispatch} from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { filter } from '../../store/actions/filter';
 import './Dropdown.styles.css'
 

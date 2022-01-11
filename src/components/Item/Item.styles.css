@@ -1,19 +1,18 @@
 .item {
-    border:solid;
-    width: 50%;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-    background-color: azure;
-    opacity: 0.9;
-    
+  border: solid;
+  width: 50%;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  background-color: azure;
+  opacity: 0.9Ы;
 }
 
 .itemImage {
-    display: flex;
-    float:left;
+  display: flex;
+  float: left;
 }
 
 .header {
-    font-size: 35px;
+  font-size: 35px;
 }
