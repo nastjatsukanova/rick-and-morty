@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { changeInputValue } from '../../store/actions/changeInputValue';
 import { saveData } from '../../store/actions/saveData'
 import { DataList } from '../DataList/DataList';
+import { url } from '../api/urls'
 import './MainPage.styles.css'
 
 export const MainPage = (props) => {
@@ -21,7 +22,7 @@ export const MainPage = (props) => {
   const handleClick = () => {
     (async () => {
       try {
-        let response = await fetch(`https://rickandmortyapi.com/api/${filter}/?name=${inputValue}`)
+        let response = await fetch(`${url}/api/${filter}/?name=${inputValue}`)
         let { results } = await response.json();
         dispatch(saveData(results))
       }
@@ -31,7 +32,6 @@ export const MainPage = (props) => {
 
     })()
   }
-  console.log(filter)
 
   return (
     <div className='main'>

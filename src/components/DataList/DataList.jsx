@@ -27,7 +27,6 @@ export const DataList = ({ itemsPerPage, filter }) => {
         <div>
             <div className="list">
                 {currentItems && currentItems.map(item => {
-                    console.log('Item', item)
                     return (
                         <Item
                             key={item.id}

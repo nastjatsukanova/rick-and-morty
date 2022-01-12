@@ -1,7 +1,7 @@
 import '../Item/Item.styles.css'
 import { Link } from 'react-router-dom'
 import { About } from '../About/About'
-
+import { ROUTES } from '../routes/constants'
 
 export const Item = (props) => {
     console.log(props)
@@ -12,7 +12,7 @@ export const Item = (props) => {
 
             <Link
                 to={{
-                    pathname: "/about",
+                    pathname: ROUTES.About,
                     propsSearch: About,
 
                 }}
