@@ -21,7 +21,6 @@ export const DataList = ({ itemsPerPage, filter }) => {
         const newOffset = (event.selected * itemsPerPage) % data.length;
         setItemOffset(newOffset);
     };
-    console.log(currentItems)
 
     return (
         <div>

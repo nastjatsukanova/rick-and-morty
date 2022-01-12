@@ -4,7 +4,6 @@ import { About } from '../About/About'
 import { ROUTES } from '../routes/constants'
 
 export const Item = (props) => {
-    console.log(props)
     return (
         <div className='item'>
             {props.image && <img className='itemImage' src={props.image} alt='' width={220} height={220} />}
