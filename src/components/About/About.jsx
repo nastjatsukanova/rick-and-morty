@@ -2,7 +2,7 @@ import { useLocation } from "react-router-dom";
 import './About.styles.css';
 import { Link } from 'react-router-dom';
 import { MainPage } from "../MainPage/MainPage";
-import { ROUTES } from '../routes/constants'
+import { ROUTES } from '../../routes/constants'
 
 export const About = (props) => {
 
@@ -21,7 +21,7 @@ export const About = (props) => {
         <p> {item.status} </p>
         <p>created: {date.toDateString()}</p>
         <Link to={{
-          pathname: ROUTES.MainPage,
+          pathname: ROUTES.MAIN_PAGE,
           propsSearch: MainPage,
 
         }}>

@@ -1,7 +1,7 @@
 import '../Item/Item.styles.css'
 import { Link } from 'react-router-dom'
 import { About } from '../About/About'
-import { ROUTES } from '../routes/constants'
+import { ROUTES } from '../../routes/constants'
 
 export const Item = (props) => {
     return (
@@ -11,7 +11,7 @@ export const Item = (props) => {
 
             <Link
                 to={{
-                    pathname: ROUTES.About,
+                    pathname: ROUTES.ABOUT,
                     propsSearch: About,
 
                 }}
